@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Consulta CEP</title>
+</head>
+    <body>
+        <div class="container">
+            <label>
+                <input id="numeroCep" type="text" name="numeroCep" placeholder="Insira aqui o CEP desejado:"/>
+            </label>
+            <button id="botao">Pesquisar</button>
+
+            <div id="Resultado" >
+
+                <h2>Dados do CEP informado:</h2>
+
+                <div id="dados">
+                    <p>CEP: <span id="cep"></span></p>
+                    
+                    <p id="logradouro">Logradouro: <span></span></p>
+
+                    <p id="bairro">Bairro: <span></span></p>
+
+                    <p id="localidade">Localidade: <span></span></p>
+
+                    <p id="uf">UF: <span></span></p>
+
+                    <p id="ibge">Código IBGE: <span></span></p>
+
+                    <p id="ddd">DDD: <span></span></p>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+   </body>
+</html>

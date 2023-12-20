@@ -1,0 +1,31 @@
+p{
+    color: white;
+    font-weight: bold;
+}
+
+h2{
+    color:  rgb(85, 55, 0);
+}
+
+body{
+    background-image: url(img/fundo.png.png);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.container{
+    background-color: rgb(139, 108, 50);
+    padding: 20px;
+    border: solid 1px rgb(255, 255, 255);
+}
+
+#botao{
+    background-color: rgb(8, 170, 182);
+    color: beige;
+    border: solid 1px rgb(255, 255, 255);
+}
+
+#principal{
+    background-color: aliceblue;
+}

@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(../assets/fontes/roboto/Roboto/Roboto-Regular.ttf);}
+@font-face {
+    font-family: 'Questrial';
+    src: url(../assets/fontes/Questrial/Questrial-Regular.ttf);
+}
+@font-face {
+    font-family: 'Cormorant_Garamond';
+    src: url(../assets/fontes/Cormorant_Garamond/CormorantGaramond-Regular.ttf);
+}
+/*Foi utilizado uma fonte mais formal (serifada) pois como setrata de um site destinado a rofissionais da area, incluive apresentando uma linguagem mais tecnica sobre o assunto, a fonte condiz com a tematica proposta.*/
+.titulo1{
+    font-family: 'Roboto';
+    color: rgb(0, 92, 128);
+    color: #ffffff;
+    background-color: #397CA3;
+    text-align: center;
+    font-size: large;
+    font-size: xx-large;
+}
+.fundo{
+    background-color: rgb(243, 232, 219);
+}
+#paragrafo{
+    color:rgb(19, 16, 16);;
+    color:rgb(27, 21, 21);;
+}
+/*Para os outros titulos, foram utilizadas fontes nao serifadas para contasrtar com a do titulo 1 escolhida, e chamar a atenção para que o usuario tenha interesse de continuar lendo a materia*/
+.titulo2{
+    font-family: 'Questrial';
+    color: #ffffff;
+    background-color: #a9ddfc;
+    text-align: center;
+}
+.titulo3{
+    font-family: 'Questrial';
+    color: #ffffff;
+    background-color:#6CBFF0;
+    text-align: center;
+}
+.titulo4{
+    font-family: 'Questrial';
+    color: #ffffff;
+    background-color: #A36F29;
+    text-align: center;
+}
+.titulo5{
+    font-family: 'Questrial';
+    color: #ffffff;
+    background-color:#F0A541 ;
+    text-align: center;
+}
+.titulos{
+    font-family: 'Questrial';
+    color: salmon;
+}
+/*Já para o copor do texto, foram escolhidos 2 tipos de fontes pois, se o navegador nao conseguir renderizar a primeira, ele tentará a segunda. A primeira opçao é serifada, para dar uma ideia de conteudo mais formal e mais tecnico ao texto*/
+body{
+    background-image: url(./img/2.png);
+    font-family: 'Questrial';
+    font-family: 'Cormorant_Garamond';
+    font-size: 20px;
+}
+.imagem{
+    text-align: center;
+}
+
