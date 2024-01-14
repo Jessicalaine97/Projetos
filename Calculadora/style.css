@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url("img/fundo2.jpg");
+
+}
+
+.calculadora{
+    width: 300px;
+    background-color: rgb(241, 56, 170);
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px #00000040;
+    overflow: hidden;
+}
+
+.resultado{
+    height: 75px;
+    width: 28px;
+    text-align: right;
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+.botoes{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1px;
+}
+
+.botoes button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    font-weight: bold;
+    border:none;
+    outline: none;
+    cursor: pointer;
+}
+
+.botaoZero{
+    grid-column: span 2;
+    background-color: rgb(211, 136, 182);
+}
+
+.botaoRosa{
+    background-color: rgb(207, 29, 139);
+}
+
+.botaoRosaClaro{
+    background-color: rgb(223, 134, 189);
+}
+
+.botaoVerde{
+    background-color: #03300B;
+}
+
+.botaoClicado{
+    opacity: 0.9;
+}
+
+.botaoVerde{
+    background-color: rgb(207, 29, 139);
+}
