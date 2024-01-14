@@ -13,6 +13,3 @@ Para o desenvolvimento do script.js, foi utilizado os conhecimentos aprendidos e
 
 O preview da nossa tela (.png) foi adicionado a pasta tambem pois percebemos que dependendo do tamanho da tela pode ter algumas pequenas mudanças.
 
-Foi muito trabalhoso mas estamos orgulhosos! Esperamos que goste tb <3
-
-Obs.: O Eduardo fez uns comits em sala de aula mas o nome que aparece no github é def-ale. Não conseguimos trocar a conta.
